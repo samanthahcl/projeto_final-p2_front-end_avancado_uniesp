@@ -1,0 +1,82 @@
+.home-page {
+  box-sizing: border-box;
+  width: min(100%, 1200px);
+  margin: 0 auto;
+  padding: 32px 20px 64px;
+  color: #18243b;
+}
+
+.home-page__intro {
+  padding: 32px 28px;
+  border-radius: 16px;
+  background: #eaf1f9;
+}
+
+.home-page__label {
+  margin: 0 0 12px;
+  color: #19467c;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.home-page__intro h1 {
+  margin: 0 0 12px;
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  line-height: 1.2;
+}
+
+.home-page__intro > p:last-child {
+  margin: 0;
+  color: #485972;
+}
+
+.home-page__catalog {
+  margin-top: 36px;
+}
+
+.home-page__heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.home-page__heading h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.home-page__heading span {
+  color: #536278;
+  font-size: 0.875rem;
+}
+
+.home-page__empty {
+  padding: 40px 24px;
+  border: 1px dashed #c4cddd;
+  border-radius: 12px;
+  background: #f7f9fc;
+  text-align: center;
+}
+
+.home-page__empty p {
+  margin: 0;
+  color: #536278;
+}
+
+@media (max-width: 600px) {
+  .home-page {
+    padding: 20px 16px 40px;
+  }
+
+  .home-page__intro {
+    padding: 24px 20px;
+  }
+
+  .home-page__catalog {
+    margin-top: 28px;
+  }
+}
